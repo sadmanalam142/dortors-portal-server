@@ -44,7 +44,7 @@ async function run() {
                 next();
             }
             else {
-                res.status(403).send({ mwssage: 'Forbidden Access' })
+                res.status(403).send({ message: 'Forbidden Access' })
             }
         }
 
